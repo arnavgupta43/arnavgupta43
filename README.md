@@ -1,6 +1,6 @@
 ![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
 <h1 align="center">Hi 👋, I'm Arnav Kumar Gupta</h1>
-<h3 align="center">A passionate programmer in 2nd year of college</h3>
+<h3 align="center">A passionate programmer in 3nd year of college</h3>
 <img align="right" alt="Coding " width="400" src="https://i.pinimg.com/originals/54/e3/7d/54e37d8074ebcde1d96c77d7b2a7f310.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arnavgupta43&label=Profile%20views&color=0e75b6&style=flat" alt="arnavgupta43" /> </p>
