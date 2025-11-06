@@ -1,9 +1,76 @@
 ![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
 <h1 align="center">Hi 👋, I'm Arnav Kumar Gupta</h1>
-<h3 align="center">A passionate programmer in 3th year of college</h3>
+<h3 align="center">A passionate programmer in 3rd year of college</h3>
 <img align="right" alt="Coding " width="400" src="https://i.pinimg.com/originals/54/e3/7d/54e37d8074ebcde1d96c77d7b2a7f310.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arnavgupta43&label=Profile%20views&color=0e75b6&style=flat" alt="arnavgupta43" /> </p>
+
+## 🚀 Summary & Profile
+
+Third-year **BTech Computer Science student** at Christ University, Bangalore, with a strong foundation in data structures and object-oriented programming.
+Eager to apply academic knowledge to practical projects, continuously improve technical skills, and contribute in collaborative environments. Passionate about technology, innovation, and growth.
+
+---
+
+## 🛠️ Technical Skills
+
+| Category | Skills |
+| :--- | :--- |
+| **Programming Languages** | JavaScript, TypeScript, C++, Java, Python |
+| **Web & Backend** | Node.js, Express.js, JWT, REST APIs |
+| **Databases** | PostgreSQL, Prisma ORM, MySQL, MongoDB |
+| **Testing & CI/CD** | Jest, Supertest, GitHub Actions, Docker |
+| **Tools & IDEs** | Postman, Git, Linux CLI, VS Code |
+
+---
+
+## 💼 Work Experience
+
+### **Software Engineering Intern - Gullak Money**
+*April 2025 – May 2025*
+
+* Contributed effectively to the codebase by assisting in the implementation of **new features**.
+* Collaborated on **debugging and testing tasks** to ensure code quality and stability.
+* Participated in daily stand-ups and contributed valuable insights in design discussions.
+* Took **ownership of assigned tasks** and consistently delivered quality work.
+
+---
+
+## ✨ Key Projects
+
+### **1. Expense-Ease - Personal Finance & Bill Splitting API**
+*Technologies: Node.js, Express, TypeScript, PostgreSQL, Prisma, Jest, Docker, GitHub Actions*
+
+* Designed secure personal finance tracking and bill-splitting APIs with **JWT authentication**, category filters, and friend-only validation for collaborative expenses.
+* Implemented robust friend workflows (discover, invite, accept/reject, block) with bidirectional pagination and unique constraints on user relations.
+* Developed comprehensive unit and integration tests using **Jest, Supertest**, and mocked Prisma Client with **Dockerized Postgres DB**.
+* Automated Continuous Integration with **GitHub Actions** to trigger test suites and linting on every push/pull request.
+
+### **2. LoopX - Full-Stack Social Media Platform**
+*Technologies: Node.js, React, MongoDB, Cloudinary, JWT*
+
+* Built core features including post creation, authentication, likes, comments, and profile management.
+* Developed a **responsive React UI** with protected routes and Axios integration.
+* Implemented secure APIs, Multer uploads, and **JWT authentication**.
+
+### **3. University Management System**
+*Technologies: Node.js, Express, MySQL, MongoDB*
+
+* Designed **RESTful APIs** to manage students, faculty, and courses.
+* Combined **relational (MySQL) and non-relational (MongoDB)** databases for optimal performance.
+
+---
+
+## 🎓 Education
+
+**CHRIST (Deemed to be University)**, Bangalore
+*B. Tech in Computer Science (June 2023 – May 2027)*
+* **CGPA:** 8.51/10
+* **Key Coursework:** Data Structures, Operating Systems, OOP, Computer Networks, Computer Architecture, DBMS
+
+---
+
+## 🌱 Currently Learning & Contact
 
 - 🌱 I’m currently learning **React**
 
@@ -26,4 +93,3 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arnavgupta43&show_icons=true&locale=en" alt="arnavgupta43" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arnavgupta43&" alt="arnavgupta43" /></p>
