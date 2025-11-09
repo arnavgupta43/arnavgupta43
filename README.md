@@ -59,6 +59,12 @@ Eager to apply academic knowledge to practical projects, continuously improve te
 * Designed **RESTful APIs** to manage students, faculty, and courses.
 * Combined **relational (MySQL) and non-relational (MongoDB)** databases for optimal performance.
 
+### **4. MicroTasker — Event-Driven Task Management Backend**
+*Technologies: Node.js, Express, MongoDB, RabbitMQ, Docker, JWT*
+
+* Engineered event-driven user registration and login flows using RabbitMQ to publish user.created events,successfully decoupling account provisioning from the core service.
+* Developed a dedicated notification worker to consume user.* and task.* topics, implementing message acknowledgment and persistence for guaranteed delivery of notification records.
+* Hardened public APIs with rate limiting and CORS while orchestrating the entire multi-service environment (MongoDB, RabbitMQ) using Docker Compose for reproducible local setup.
 ---
 
 ## 🎓 Education
