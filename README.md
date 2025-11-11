@@ -46,25 +46,26 @@ Eager to apply academic knowledge to practical projects, continuously improve te
 * Developed comprehensive unit and integration tests using **Jest, Supertest**, and mocked Prisma Client with **Dockerized Postgres DB**.
 * Automated Continuous Integration with **GitHub Actions** to trigger test suites and linting on every push/pull request.
 
-### **2. LoopX - Full-Stack Social Media Platform**
+### **2. MicroTasker — Event-Driven Task Management Backend**
+*Technologies: Node.js, Express, MongoDB, RabbitMQ, Docker, JWT*
+
+* Engineered event-driven user registration and login flows using RabbitMQ to publish user.created events,successfully decoupling account provisioning from the core service.
+* Developed a dedicated notification worker to consume user.* and task.* topics, implementing message acknowledgment and persistence for guaranteed delivery of notification records.
+* Hardened public APIs with rate limiting and CORS while orchestrating the entire multi-service environment (MongoDB, RabbitMQ) using Docker Compose for reproducible local setup.
+
+### **3. LoopX - Full-Stack Social Media Platform**
 *Technologies: Node.js, React, MongoDB, Cloudinary, JWT*
 
 * Built core features including post creation, authentication, likes, comments, and profile management.
 * Developed a **responsive React UI** with protected routes and Axios integration.
 * Implemented secure APIs, Multer uploads, and **JWT authentication**.
 
-### **3. University Management System**
+### **4. University Management System**
 *Technologies: Node.js, Express, MySQL, MongoDB*
 
 * Designed **RESTful APIs** to manage students, faculty, and courses.
 * Combined **relational (MySQL) and non-relational (MongoDB)** databases for optimal performance.
 
-### **4. MicroTasker — Event-Driven Task Management Backend**
-*Technologies: Node.js, Express, MongoDB, RabbitMQ, Docker, JWT*
-
-* Engineered event-driven user registration and login flows using RabbitMQ to publish user.created events,successfully decoupling account provisioning from the core service.
-* Developed a dedicated notification worker to consume user.* and task.* topics, implementing message acknowledgment and persistence for guaranteed delivery of notification records.
-* Hardened public APIs with rate limiting and CORS while orchestrating the entire multi-service environment (MongoDB, RabbitMQ) using Docker Compose for reproducible local setup.
 ---
 
 ## 🎓 Education
@@ -72,7 +73,7 @@ Eager to apply academic knowledge to practical projects, continuously improve te
 **CHRIST (Deemed to be University)**, Bangalore
 *B. Tech in Computer Science (June 2023 – May 2027)*
 * **CGPA:** 8.51/10
-* **Key Coursework:** Data Structures, Operating Systems, OOP, Computer Networks, Computer Architecture, DBMS
+* **Key Coursework:**  Data Structures, Operating Systems, OOP, Computer Networks,Computer Architecture, DBMS, Cloud Computing, Internet and Web Programming, AIML, Design and Analysis of Algorithm
 
 ---
 
