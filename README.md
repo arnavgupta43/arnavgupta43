@@ -114,9 +114,7 @@ Eager to apply academic knowledge to practical projects, continuously improve te
 
 ---
 
-## 🌱 Currently Learning & Contact
-
-- 🌱 I’m currently learning **React**
+## 🌱 Currently Razorpay Integration & Low level Design
 
 - 💬 Ask me about **Object Oriented Programming**
 
