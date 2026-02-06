@@ -53,9 +53,9 @@ I am a **Software Engineering Intern** and 3rd-year CS student with a focus on *
 * Designed a production-grade **CI/CD pipeline** using GitHub Actions to automate testing on every push.
 * Secured data with **JWT authentication** and strict row-level security policies.
 
-### **3. LoopX - Social Platform**
-*Stack: MERN (MongoDB, Express, React, Node), JWT*
-* Full-stack development featuring secure auth, media uploads via Multer/Cloudinary, and responsive UI.
+### **3. StockStrom - Flash-Sale Reservation Engine**
+*Stack: Node.js, Redis (Lua), PostgreSQL, Docker*
+* Engineered a high-concurrency inventory system capable of handling burst traffic with zero overselling by utilizing Redis Lua scripts for atomic reservation locking.
 
 ---
 
