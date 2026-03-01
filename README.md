@@ -47,15 +47,19 @@ I am a **Software Engineering Intern** and 3rd-year CS student with a focus on *
 * Implemented reliable notification delivery with message acknowledgment and persistence.
 * Orchestrated the multi-service environment using **Docker Compose**.
 
-### **2. Expense-Ease - Fintech API**
+### **2. StockStrom - Flash-Sale Reservation Engine**
+*Stack: Node.js, Redis (Lua), PostgreSQL, Docker*
+* Built a high-concurrency inventory reservation API with Express, Redis, and PostgreSQL, utilizing optimistic Redis transactions (WATCH/MULTI) and TTL-based holds to prevent oversells.
+* Designed an event-driven workflow with Redis Streams and a worker service to process hold lifecycle events (created, confirmed, cancelled, expired) and persist state in Postgres.
+* Implemented idempotency safeguards and transactional database writes for safe retries, validating zero-oversell invariants via k6 load testing (100 VUs) that sustained ~1.6K RPS at p95 <35ms.
+
+### **3. Expense-Ease - Fintech API**
 *Stack: TypeScript, PostgreSQL, Prisma, Jest, CI/CD*
 * Built a complex bill-splitting engine with recursive settlement logic.
 * Designed a production-grade **CI/CD pipeline** using GitHub Actions to automate testing on every push.
 * Secured data with **JWT authentication** and strict row-level security policies.
 
-### **3. StockStrom - Flash-Sale Reservation Engine**
-*Stack: Node.js, Redis (Lua), PostgreSQL, Docker*
-* Engineered a high-concurrency inventory system capable of handling burst traffic with zero overselling by utilizing Redis Lua scripts for atomic reservation locking.
+
 
 ---
 
