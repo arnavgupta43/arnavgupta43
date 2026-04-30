@@ -6,56 +6,52 @@
   <img src="https://komarev.com/ghpvc/?username=arnavgupta43&label=Profile%20views&color=0e75b6&style=flat" alt="arnavgupta43" /> 
 </p>
 
-
-
 ## 🚀 About Me
 
-I am a **Software Engineering Intern** and 3rd-year CS student with a focus on **Scalable Backend Systems**. I don't just write code; I solve production-level problems like rate-limiting and payment integration.
+I am a **Backend Engineering Intern** and 3rd-year CS student with a focus on **Scalable Backend Systems**. I don't just write code; I solve production-level problems like rate-limiting, payment integration, and high-concurrency systems.
 
-* 🔭 **Currently working on:** Razorpay Integration at CodeWiser & Studying Low-Level Design.
-* 🌱 **Deep diving into:** Distributed Systems (Raft Consensus) and Data Structure and Algorithms.
+* 🔭 **Currently working on:** Optimizing MCP API endpoints at Smallcase Technologies & Studying Low-Level Design.
+* 🌱 **Deep diving into:** Distributed Systems (Raft Consensus) and Data Structures & Algorithms.
 
 ---
 
 ## 💼 Work Experience
 
-### **Software Engineering Intern - CodeWiser**
-*January 2026 – Present*
+### **Backend Engineering Intern - Smallcase Technologies**
+*April 2026 – Present*
 
-* Implemented **Razorpay payment gateway integration**, ensuring secure transaction processing for the web app.
-* Designed a **rate-limiting system** for LLM generation using PostgreSQL row-level locking to enforce strict quotas.
-* Refactored **NextAuth session handling**, reducing redundant API calls by **100%** during navigation.
-* Resolving high-priority production issues spanning frontend misconfigurations to backend logic.
+* Optimized **16 wealth-domain API endpoints** for the in-house AI assistant's MCP by stripping redundant fields and UI-only formatting, achieving a **30–45% token reduction** per endpoint.
+* Saved approximately **~1.5M tokens platform-wide** and decreased API bandwidth, executing comprehensive end-to-end tests to guarantee zero feature degradation or loss of output quality.
+* Monitored production health and resolved critical backend anomalies using **Sentry alerts**, debugging and patching live issues to maintain high API reliability and system uptime.
+
+### **Software Engineering Intern - CodeWiser**
+*January 2026 – February 2026*
+
+* Contributed to backend development by integrating **Razorpay** for subscription-based plans, implementing webhook listeners to automate recurring billing and access control.
+* Designed a **rate-limiting system** for LLM APIs using PostgreSQL row-level locking and transactional integrity, enforcing usage quotas at scale.
+* Optimized application performance by refactoring **NextAuth session handling**, achieving a **100% reduction** in redundant user-fetch API calls during page navigation.
 
 ### **Software Engineering Intern - Gullak Money**
 *April 2025 – May 2025*
 
-* Reduced critical production defects through rigorous debugging and unit testing.
+* Reduced critical production defects through rigorous debugging and implementing dedicated unit tests.
 * Owned the end-to-end implementation and deployment of a utility service, delivering ahead of schedule.
 
 ---
 
 ## ✨ Key Projects
 
-### **1. MicroTasker — Event-Driven Architecture**
-*Stack: Node.js, RabbitMQ, MongoDB, Docker*
-* Engineered an asynchronous architecture using **RabbitMQ** to decouple user registration from account provisioning.
-* Implemented reliable notification delivery with message acknowledgment and persistence.
-* Orchestrated the multi-service environment using **Docker Compose**.
+### **1. MicroTasker — Event-Driven Task Management Backend**
+*Stack: Node.js, Express, MongoDB, RabbitMQ, Docker, JWT*
+* Designed an event-driven microservices architecture using **RabbitMQ** to publish and consume user and task domain events, enabling loose coupling and asynchronous workflows across services.
+* Implemented a reliable notification service with durable queues, explicit message acknowledgments, and graceful shutdown handling (SIGTERM/SIGINT) to safely process in-flight events and prevent message loss.
+* Added production-grade observability through structured JSON logging with request correlation IDs and health/readiness endpoints integrated into **Docker healthchecks**.
 
-### **2. StockStrom - Flash-Sale Reservation Engine**
-*Stack: Node.js, Redis (Lua), PostgreSQL, Docker*
-* Built a high-concurrency inventory reservation API with Express, Redis, and PostgreSQL, utilizing optimistic Redis transactions (WATCH/MULTI) and TTL-based holds to prevent oversells.
-* Designed an event-driven workflow with Redis Streams and a worker service to process hold lifecycle events (created, confirmed, cancelled, expired) and persist state in Postgres.
-* Implemented idempotency safeguards and transactional database writes for safe retries, validating zero-oversell invariants via k6 load testing (100 VUs) that sustained ~1.6K RPS at p95 <35ms.
-
-### **3. Expense-Ease - Fintech API**
-*Stack: TypeScript, PostgreSQL, Prisma, Jest, CI/CD*
-* Built a complex bill-splitting engine with recursive settlement logic.
-* Designed a production-grade **CI/CD pipeline** using GitHub Actions to automate testing on every push.
-* Secured data with **JWT authentication** and strict row-level security policies.
-
-
+### **2. Flash-Sale Reservation Engine — High-Concurrency Inventory System**
+*Stack: Node.js, Express, Redis (Lua), PostgreSQL, Redis Streams*
+* Built a high-concurrency inventory reservation API utilizing optimistic Redis transactions **(WATCH/MULTI)** and TTL-based holds to prevent oversells.
+* Designed an event-driven workflow with **Redis Streams** and a worker service to process hold lifecycle events (created, confirmed, cancelled, expired) and persist state in Postgres.
+* Implemented idempotency safeguards and transactional database writes for safe retries, validating zero-oversell invariants via **k6 load testing** (100 VUs) that sustained **~1.6K RPS at p95 <35ms**.
 
 ---
 
@@ -63,10 +59,10 @@ I am a **Software Engineering Intern** and 3rd-year CS student with a focus on *
 
 | Category | Skills |
 | :--- | :--- |
-| **Backend** | Node.js, Express.js, Microservices, REST APIs, JWT |
-| **Databases** | PostgreSQL, Prisma ORM, MongoDB, MySQL, Redis |
-| **DevOps** | Docker, GitHub Actions, AWS (Basic), Linux CLI |
-| **Languages** | JavaScript, TypeScript, C++, Java, Python |
+| **Languages** | JavaScript, C++, Java |
+| **Backend** | Node.js, Express.js, REST APIs, JWT, Microservices |
+| **Databases** | PostgreSQL, MySQL, MongoDB, Redis, Prisma ORM |
+| **DevOps & Tools** | Docker, AWS (S3), GitHub Actions, Jest, Supertest, Git, Postman |
 
 ---
 
@@ -75,26 +71,26 @@ I am a **Software Engineering Intern** and 3rd-year CS student with a focus on *
 I write about complex computer science topics to solidify my understanding.
 
 <table>
-  <tr>
-    <td width="50%">
-      <a href="https://medium.com/@arnavkumargupta777/strong-consistency-in-distributed-systems-raft-algorithm-e366649ffb1e">
-        <img width="100%" src="https://github.com/user-attachments/assets/d8eab445-0a9d-4151-b1c1-006fa5e97262" />
-      </a>
-      <br>
-      <strong><a href="https://medium.com/@arnavkumargupta777/strong-consistency-in-distributed-systems-raft-algorithm-e366649ffb1e">Strong Consistency: The Raft Algorithm</a></strong>
-      <br>
-      <p>A deep dive into providing strong consistency in distributed environments.</p>
-    </td>
-    <td width="50%">
-      <a href="https://medium.com/@arnavkumargupta777/merge-islands-game-design-and-analysis-of-algorithms-0303a537d78d">
-        <img width="100%" src="https://github.com/user-attachments/assets/1871b9fe-e3dd-4339-ab82-7df57ac17256" />
-      </a>
-      <br>
-      <strong><a href="https://medium.com/@arnavkumargupta777/merge-islands-game-design-and-analysis-of-algorithms-0303a537d78d">Merge Islands: DSU Algorithm</a></strong>
-      <br>
-      <p>Designing a game using Disjoint Set Union with path compression.</p>
-    </td>
-  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://medium.com/@arnavkumargupta777/strong-consistency-in-distributed-systems-raft-algorithm-e366649ffb1e">
+        <img width="100%" src="https://github.com/user-attachments/assets/d8eab445-0a9d-4151-b1c1-006fa5e97262" />
+      </a>
+      <br>
+      <strong><a href="https://medium.com/@arnavkumargupta777/strong-consistency-in-distributed-systems-raft-algorithm-e366649ffb1e">Strong Consistency: The Raft Algorithm</a></strong>
+      <br>
+      <p>A deep dive into providing strong consistency in distributed environments.</p>
+    </td>
+    <td width="50%">
+      <a href="https://medium.com/@arnavkumargupta777/merge-islands-game-design-and-analysis-of-algorithms-0303a537d78d">
+        <img width="100%" src="https://github.com/user-attachments/assets/1871b9fe-e3dd-4339-ab82-7df57ac17256" />
+      </a>
+      <br>
+      <strong><a href="https://medium.com/@arnavkumargupta777/merge-islands-game-design-and-analysis-of-algorithms-0303a537d78d">Merge Islands: DSU Algorithm</a></strong>
+      <br>
+      <p>Designing a game using Disjoint Set Union with path compression.</p>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -115,7 +111,11 @@ I write about complex computer science topics to solidify my understanding.
 ## 🎓 Education
 
 **CHRIST (Deemed to be University)**, Bangalore
-*B. Tech in Computer Science (2023 – 2027)* | **CGPA:** 3.87/4
+*B. Tech in Computer Science (2023 – 2027)* | **CGPA:** 3.85/4
+
+**Key Coursework:** Data Structures, Operating Systems, OOP, Computer Networks, DBMS, Cloud Computing, Design and Analysis of Algorithms
+
+---
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
