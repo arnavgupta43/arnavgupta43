@@ -6,11 +6,7 @@
   <img src="https://komarev.com/ghpvc/?username=arnavgupta43&label=Profile%20views&color=0e75b6&style=flat" alt="arnavgupta43" /> 
 </p>
 
-<p align="center">
-  <a href="https://linkedin.com/in/arnavkumargupta777" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="arnavkumargupta777" height="30" width="40" /></a>
-  <a href="https://www.leetcode.com/arnavgupta_43" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="arnavgupta_43" height="30" width="40" /></a>
-  <a href="mailto:arnavkumargupta777@gmail.com" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="arnavkumargupta777" height="30" width="40" /></a>
-</p>
+
 
 ## 🚀 About Me
 
