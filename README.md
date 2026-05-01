@@ -75,12 +75,42 @@ I build **scalable backend systems** — from payment gateways and LLM rate limi
 
 ## Technical Skills
 
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | JavaScript, TypeScript, C++, Java |
-| **Backend** | Node.js, Express.js, REST APIs, JWT, Microservices |
-| **Databases** | PostgreSQL, MongoDB, Redis, MySQL, Prisma ORM |
-| **DevOps & Tools** | Docker, GitHub Actions, AWS S3, Jest, Supertest, Sentry, Git, Postman |
+**Backend Development**
+&nbsp; APIs, auth, business logic, and scalable services.
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
+<br>
+
+**Databases & Infra**
+&nbsp; Data modeling, persistence, and deployment-ready workflows.
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-232F3E?style=for-the-badge&logo=amazons3&logoColor=white)
+
+<br>
+
+**Tools**
+&nbsp; Daily workflow tools for shipping, debugging, and iteration.
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
@@ -120,9 +150,3 @@ I build **scalable backend systems** — from payment gateways and LLM rate limi
 </div>
 
 ---
-
-## Education
-
-**CHRIST (Deemed to be University), Bangalore** &nbsp;·&nbsp; B.Tech in Computer Science &nbsp;·&nbsp; `2023 – 2027` &nbsp;·&nbsp; **CGPA: 3.85 / 4**
-
-`Data Structures` `Operating Systems` `OOP` `Computer Networks` `DBMS` `Cloud Computing` `Design & Analysis of Algorithms`
