@@ -121,7 +121,7 @@ I build **scalable backend systems** — from payment gateways and LLM rate limi
   <tr>
     <td width="50%">
       <a href="https://medium.com/@arnavkumargupta777/strong-consistency-in-distributed-systems-raft-algorithm-e366649ffb1e">
-        <img width="100%" src="https://github.com/user-attachments/assets/d8eab445-0a9d-4151-b1c1-006fa5e97262" />
+        <img width="100%" height="420" src="https://github.com/user-attachments/assets/d8eab445-0a9d-4151-b1c1-006fa5e97262" />
       </a>
       <br>
       <b><a href="https://medium.com/@arnavkumargupta777/strong-consistency-in-distributed-systems-raft-algorithm-e366649ffb1e">Strong Consistency: The Raft Algorithm</a></b>
@@ -130,7 +130,7 @@ I build **scalable backend systems** — from payment gateways and LLM rate limi
     </td>
     <td width="50%">
       <a href="https://medium.com/@arnavkumargupta777/merge-islands-game-design-and-analysis-of-algorithms-0303a537d78d">
-        <img width="100%" src="https://github.com/user-attachments/assets/1871b9fe-e3dd-4339-ab82-7df57ac17256" />
+        <img width="100%" height="420" src="https://github.com/user-attachments/assets/1871b9fe-e3dd-4339-ab82-7df57ac17256" />
       </a>
       <br>
       <b><a href="https://medium.com/@arnavkumargupta777/merge-islands-game-design-and-analysis-of-algorithms-0303a537d78d">Merge Islands: DSU Algorithm</a></b>
