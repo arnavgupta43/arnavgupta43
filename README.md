@@ -32,8 +32,9 @@ I build **scalable backend systems** — from payment gateways and LLM rate limi
 
 ## Work Experience
 
-**Backend Engineering Intern — [Smallcase Technologies](https://smallcase.com)** &nbsp;`Apr 2026 – Present`
+**Backend Engineering Intern — [Smallcase](https://smallcase.com)** &nbsp;`Apr 2026 – Present`
 
+- Led the end-to-end architecture and development of a core segment deletion feature, owning the complete lifecycle from HLD and LLD through implementation, dev testing, and successful production delivery.
 - Optimized **16 wealth-domain API endpoints** for the in-house AI assistant's MCP, achieving a **30–45% token reduction** per endpoint.
 - Saved **~1.5M tokens platform-wide** and decreased API bandwidth, with comprehensive end-to-end tests guaranteeing zero feature degradation.
 - Monitored production health via **Sentry**, debugging and patching live anomalies to maintain high API reliability and uptime.
