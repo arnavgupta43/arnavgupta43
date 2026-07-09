@@ -4,11 +4,11 @@
 <p align="center"><i>Backend Engineer · CS Student · Bangalore</i></p>
 
 <p align="center">
-  <a href="https://github.com/arnavgupta43"><img src="https://img.shields.io/badge/GitHub-arnavgupta43-181717?style=flat-square&logo=github" /></a>
-  <a href="https://www.linkedin.com/in/arnavkumargupta"><img src="https://img.shields.io/badge/LinkedIn-arnavkumargupta-0A66C2?style=flat-square&logo=linkedin" /></a>
-  <a href="https://leetcode.com/arnavgupta_43"><img src="https://img.shields.io/badge/LeetCode-arnavgupta_43-FFA116?style=flat-square&logo=leetcode&logoColor=white" /></a>
-  <a href="https://medium.com/@arnavkumargupta777"><img src="https://img.shields.io/badge/Medium-arnavkumargupta777-000000?style=flat-square&logo=medium" /></a>
-  <img src="https://komarev.com/ghpvc/?username=arnavgupta43&style=flat-square&color=0e75b6" />
+  <a href="https://github.com/arnavgupta43"><img src="https://img.shields.io/badge/GitHub-arnavgupta43-181717?style=for-the-badge&logo=github" /></a>
+  <a href="https://www.linkedin.com/in/arnavkumargupta"><img src="https://img.shields.io/badge/LinkedIn-arnavkumargupta-0A66C2?style=for-the-badge&logo=linkedin" /></a>
+  <a href="https://leetcode.com/arnavgupta_43"><img src="https://img.shields.io/badge/LeetCode-arnavgupta_43-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
+  <a href="https://medium.com/@arnavkumargupta777"><img src="https://img.shields.io/badge/Medium-arnavkumargupta777-000000?style=for-the-badge&logo=medium" /></a>
+  <img src="https://komarev.com/ghpvc/?username=arnavgupta43&style=for-the-badge&color=0e75b6" />
 </p>
 
 ---
@@ -135,7 +135,7 @@ Coursework: Data Structures & Algorithms, Operating Systems, Object-Oriented Pro
   <tr>
     <td width="50%">
       <a href="https://medium.com/@arnavkumargupta777/strong-consistency-in-distributed-systems-raft-algorithm-e366649ffb1e">
-        <img width="100%" height="420" src="https://github.com/user-attachments/assets/d8eab445-0a9d-4151-b1c1-006fa5e97262" />
+        <img src="https://github.com/user-attachments/assets/d8eab445-0a9d-4151-b1c1-006fa5e97262" style="width:100%; height:220px; object-fit:cover; border-radius:6px;" />
       </a>
       <br>
       <b><a href="https://medium.com/@arnavkumargupta777/strong-consistency-in-distributed-systems-raft-algorithm-e366649ffb1e">Strong Consistency: The Raft Algorithm</a></b>
@@ -144,7 +144,7 @@ Coursework: Data Structures & Algorithms, Operating Systems, Object-Oriented Pro
     </td>
     <td width="50%">
       <a href="https://medium.com/@arnavkumargupta777/merge-islands-game-design-and-analysis-of-algorithms-0303a537d78d">
-        <img width="100%" height="420" src="https://github.com/user-attachments/assets/1871b9fe-e3dd-4339-ab82-7df57ac17256" />
+        <img src="https://github.com/user-attachments/assets/1871b9fe-e3dd-4339-ab82-7df57ac17256" style="width:100%; height:220px; object-fit:cover; border-radius:6px;" />
       </a>
       <br>
       <b><a href="https://medium.com/@arnavkumargupta777/merge-islands-game-design-and-analysis-of-algorithms-0303a537d78d">Merge Islands: DSU Algorithm</a></b>
@@ -160,7 +160,11 @@ Coursework: Data Structures & Algorithms, Operating Systems, Object-Oriented Pro
 
 <div align="center">
   <a href="https://leetcode.com/arnavgupta_43">
-    <img src="https://leetcard.jacoblin.cool/arnavgupta_43?theme=dark&font=baloo&ext=heatmap" alt="Arnav's LeetCode Stats" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/arnavgupta_43?theme=dark&font=baloo&ext=heatmap" />
+      <source media="(prefers-color-scheme: light)" srcset="https://leetcard.jacoblin.cool/arnavgupta_43?theme=light&font=baloo&ext=heatmap" />
+      <img src="https://leetcard.jacoblin.cool/arnavgupta_43?theme=dark&font=baloo&ext=heatmap" alt="Arnav's LeetCode Stats" />
+    </picture>
   </a>
 </div>
 
