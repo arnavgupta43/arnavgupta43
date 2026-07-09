@@ -13,7 +13,7 @@
 
 ---
 
-I build **scalable backend systems** — from payment gateways and LLM rate limiters to high-concurrency inventory engines sustaining **~1.6K RPS**. Currently a 3rd-year CS student, working on wealth-domain platform infrastructure and AI assistant tooling at Smallcase Technologies.
+Backend is where I do my best work — the APIs, queues, and pipelines that have to stay correct and fast even when a few million users hit them at once. I care about the unglamorous guarantees: no dropped messages, no oversold inventory, no migration that runs past its maintenance window.
 
 <br>
 
