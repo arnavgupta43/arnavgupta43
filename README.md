@@ -1,7 +1,7 @@
 ![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
 
 <h1 align="center">Arnav Kumar Gupta</h1>
-<p align="center"><i>Backend Engineer · CS Student · Bangalore</i></p>
+<p align="center"><i>Backend Engineer · Fintech · CS Student · Bangalore</i></p>
 
 <p align="center">
   <a href="https://github.com/arnavgupta43"><img src="https://img.shields.io/badge/GitHub-arnavgupta43-181717?style=for-the-badge&logo=github" /></a>
@@ -13,7 +13,7 @@
 
 ---
 
-Backend is where I do my best work — the APIs, queues, and pipelines that have to stay correct and fast even when a few million users hit them at once. I care about the unglamorous guarantees: no dropped messages, no oversold inventory, no migration that runs past its maintenance window.
+I build backend systems for fintech — the APIs, event pipelines, and data flows that have to stay correct and fast when money and credit data are on the line. Currently interning at Smallcase, working across wealth-domain infrastructure, credit data pipelines, and internal AI tooling. I care about the unglamorous guarantees: no dropped messages, no oversold inventory, no migration that runs past its maintenance window.
 
 <br>
 
@@ -34,11 +34,11 @@ Backend is where I do my best work — the APIs, queues, and pipelines that have
 
 **Backend Engineering Intern — [Smallcase](https://smallcase.com)** &nbsp;`Mar 2026 – Present`
 
-- Designed (HLD/LLD) and implemented the wealth-domain subset of a platform **account deletion** feature, orchestrating data purging across **15+ database collections** and AWS-backed microservices to process **3,000+ user offboarding requests** during its pilot phase.
-- Architected a centralized event-tracking backend with smart client-side caching to resolve downstream data anomalies and minimize network load; built **Apache Airflow** pipelines using streams and bulkWrite batches to migrate and backfill **4M+ users in under 15 minutes**.
-- Expanded an AI assistant's MCP with new tools using compact JSON (**30% token reduction**), while optimizing **16 existing APIs** by stripping UI metadata — saving **~1.5M tokens** platform-wide.
-- Re-engineered the **Experian** credit consent renewal flow to mitigate API deprecations, implementing **Kafka** event emitters and updated Airflow jobs to prevent mass consent expiration for thousands of active users.
-- Engineered a dependency-injected logging abstraction for a core credit SDK, restoring **Kibana** indexing for 20% of the platform's previously unindexed production logs.
+- Designed (HLD/LLD) and implemented the wealth-domain subset of a platform **account deletion** feature, orchestrating data purging across **15+ database collections** and AWS-backed microservices to efficiently process **3,000+ user offboarding requests** during its pilot phase.
+- Resolved downstream data anomalies by architecting a centralized event-tracking backend with smart client-side caching to minimize network load; engineered highly optimized **Apache Airflow** pipelines (streams and bulkWrite batches) to migrate and backfill **4M+ users in under 15 minutes**.
+- Expanded an AI assistant's **MCP** with new tools using compact JSON (**30% token reduction**), while optimizing **16 existing APIs** by stripping UI metadata — saving **1.5M tokens** platform-wide.
+- Re-engineered the **Experian** credit consent renewal flow to mitigate API deprecations, implementing **Kafka** event emitters and updated Airflow jobs to prevent mass consent expiration for active users; preserved historical data via a custom carry-forward architecture and executed **2 migration jobs across 100K+ credit reports**.
+- Engineered a dependency-injected logging abstraction for a core credit SDK to resolve format mismatches, restoring **Kibana** indexing for 20% of the platform's previously unindexed production logs.
 
 <br>
 
