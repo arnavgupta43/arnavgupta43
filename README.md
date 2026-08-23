@@ -58,19 +58,18 @@ I build backend systems for fintech — the APIs, event pipelines, and data flow
 
 ## Key Projects
 
+### 🌐 Resilient LLM Gateway — Multi-Provider API Gateway with Rate Limiting & Failover
+`Node.js` `TypeScript` `Express 5` `Redis` `PostgreSQL` `Pino`
+
+- Architected a **self-hosted API gateway** unifying requests across multiple LLM providers into a single schema, featuring context-aware structured logging via **AsyncLocalStorage** and centralized typed error handling.
+- Engineered a **Redis-backed resilience layer** implementing atomic token-bucket rate limiting and a **3-state circuit breaker** for automated failover routing, validated via Dockerized E2E tests and Husky CI pipelines.
+
 ### ⚡ Flash-Sale Reservation Engine — High-Concurrency Inventory System
 `Node.js` `Express` `Redis` `PostgreSQL` `Redis Streams`
 
 - Built a high-concurrency inventory reservation API using optimistic Redis transactions **(WATCH/MULTI)** and TTL-based holds to prevent oversells.
 - Designed an event-driven workflow with **Redis Streams** and a worker service to process hold lifecycle events, with idempotency safeguards and transactional writes to persist state and ensure safe retries.
 - Validated zero-oversell invariants via **k6 load testing** (100 VUs) — sustained **~1.6K RPS at p95 <35ms**.
-
-### 🐇 MicroTasker — Event-Driven Task Management Backend
-`Node.js` `Express` `MongoDB` `RabbitMQ` `Docker` `JWT`
-
-- Designed an event-driven backend with 3 decoupled services and 3 domain events using **RabbitMQ** for async user, task, and notification workflows.
-- Implemented a reliable notification worker with durable queues, explicit message acknowledgments, and graceful shutdown (SIGTERM/SIGINT).
-- Added production-grade observability via structured JSON logging with **request correlation IDs** and Docker-integrated healthcheck endpoints.
 
 ---
 
