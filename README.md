@@ -32,27 +32,27 @@ I build backend systems for fintech — the APIs, event pipelines, and data flow
 
 ## Work Experience
 
-**Backend Engineering Intern — [Smallcase](https://smallcase.com)** &nbsp;`Mar 2026 – Present`
+**Backend Engineering Intern (Gateway & Solutions) — [Smallcase](https://smallcase.com)** &nbsp;`Oct 2026 – Present`
 
-- Designed (HLD/LLD) and implemented the wealth-domain subset of a platform **account deletion** feature, orchestrating data purging across **15+ database collections** and AWS-backed microservices to efficiently process **3,000+ user offboarding requests** during its pilot phase.
+- Automated **Mutual Fund Distributor (MFD) onboarding** by building secure internal REST APIs across **2 microservices** (Gateway and Publisher) for distributor creation and smallcase activation, replacing a manual admin-panel workflow.
+
+<br>
+
+**Backend Engineering Intern (Publisher & Wealth) — [Smallcase](https://smallcase.com)** &nbsp;`Mar 2026 – Sep 2026`
+
+- Unblocked platform compliance by architecting an **idempotent data-deletion pipeline** across **15+ database collections** and AWS-backed microservices, safely processing **3,000+ user offboarding requests** with audit trails.
 - Resolved downstream data anomalies by architecting a centralized event-tracking backend with smart client-side caching to minimize network load; engineered highly optimized **Apache Airflow** pipelines (streams and bulkWrite batches) to migrate and backfill **4M+ users in under 15 minutes**.
 - Expanded an AI assistant's **MCP** with new tools using compact JSON (**30% token reduction**), while optimizing **16 existing APIs** by stripping UI metadata — saving **1.5M tokens** platform-wide.
 - Re-engineered the **Experian** credit consent renewal flow to mitigate API deprecations, implementing **Kafka** event emitters and updated Airflow jobs to prevent mass consent expiration for active users; preserved historical data via a custom carry-forward architecture and executed **2 migration jobs across 100K+ credit reports**.
-- Engineered a dependency-injected logging abstraction for a core credit SDK to resolve format mismatches, restoring **Kibana** indexing for 20% of the platform's previously unindexed production logs.
+- Owned production reliability by resolving systemic errors via dependency debugging and fallback caches; improved observability through **PII redaction** and restored **Kibana** indexing for **20% of production logs**.
 
 <br>
 
 **Software Engineering Intern — CodeWiser** &nbsp;`Jan 2026 – Feb 2026`
 
-- Integrated **Razorpay** subscriptions for 4 paid plan tiers (2 monthly, 2 yearly) with webhook-based billing automation, helping the MVP generate its first revenue.
+- Integrated **Razorpay** subscriptions for 4 paid plan tiers (2 monthly, 2 yearly) with webhook-based billing automation to enable recurring payments and paid access control, helping the MVP generate its first revenue.
 - Designed a backend quota-tracking system for LLM APIs using **PostgreSQL row-level locking**, strictly enforcing tier-based usage limits and preventing race conditions to optimize platform API costs.
-- Refactored **NextAuth** session handling, eliminating redundant user-fetch API calls and significantly reducing client-side navigation latency.
-
-<br>
-
-**Software Engineering Intern — Gullak Money** &nbsp;`Apr 2025 – May 2025`
-
-- Enhanced codebase stability and functionality by implementing new features, debugging critical issues, and writing dedicated unit tests.
+- Optimized performance by refactoring **NextAuth** session handling, eliminating redundant API calls and significantly reducing client-side navigation latency.
 
 ---
 
